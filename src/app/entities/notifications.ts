@@ -10,8 +10,7 @@ interface NotificationsProps {
 }
 
 
-export class Notification {
-
+export class Notifications {
     constructor (private props: Replace<NotificationsProps, {createdAt?: Date}> ) {
         this.props = {
             ...props,
